@@ -1,0 +1,49 @@
+.first-view{
+    background-color: $cBannerBackground;
+    position: relative;
+
+}
+
+.main-one{
+
+}
+.h2 {
+    padding-top: 25rem;
+    font-family: $pm;
+    font-size: $f36;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.hello {
+    font-size: $f48;
+    font-family: $nsb;
+    letter-spacing: 0.4rem;
+    // padding-top: 40rem;
+}
+
+.h3 {
+    font-size: $f14;
+    font-family: $nsb;
+    letter-spacing: 0.5rem;
+    padding-bottom: 5rem;
+}
+
+.my-image{
+    // background-image: url('../../img/meBanner.jpg');
+    position: absolute;
+    width: 40%;
+    height: 95%;
+    right: 10rem;
+    top: 5%;
+    bottom: 0;
+}
+
+.my-image img{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: inline-block;
+
+}

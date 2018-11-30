@@ -1,0 +1,49 @@
+// fonts 
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../../fonts/Roboto/Roboto-Medium.eot');
+    /* IE 9 */
+    src: url('../../fonts/Roboto/Roboto-Medium.eot?#iefix') format('embeedded-opentype'); 
+    src: url('../../fonts/Roboto/Roboto-Medium.woff') format('woff');
+    src: url('../../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    src: url('../../fonts/Roboto/Roboto-Medium.svg#svgRoboto') format('svg');
+    /** legacy IOS */
+    font-weight: normal;
+    font-style: normal;
+}
+$rm: 'Roboto-Medium';
+
+@font-face{
+    font-family: "Roboto-Light";
+    src: url("../../fonts/Roboto/Roboto-Light.ttf");
+}
+$rl: "Roboto-Light";
+
+@font-face{
+    font-family: 'Rock-Salt';
+    src: url('../../fonts/Rock_Salt/RockSalt-Regular.ttf')
+}
+
+$rs: "Rock-Salt";
+
+@font-face{
+    font-family: "Permanent-Marker";
+    src: url('../../fonts/Permanent_Marker/PermanentMarker-Regular.ttf')
+}
+
+$pm: "Permanent-Marker";
+
+@font-face{
+    font-family: 'Noto-Sans-Bold';
+    src: url("../../fonts/Noto_Sans/NotoSans-Bold.ttf");
+}
+
+$nsb: "Noto-Sans-Bold";
+
+@font-face{
+    font-family: "Noto-Sans-Regular";
+    src: url("../../fonts/Noto_Sans/NotoSans-Regular.ttf");
+}
+
+$nsr: "Noto-Sans-Regular";
