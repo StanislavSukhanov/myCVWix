@@ -187,6 +187,7 @@ table {
   letter-spacing: 0.4rem; }
 
 .h3 {
+  padding-top: 1rem;
   font-size: 1.4rem;
   font-family: "Noto-Sans-Bold";
   letter-spacing: 0.5rem;
@@ -194,17 +195,9 @@ table {
 
 .my-image {
   position: absolute;
-  width: 40%;
   height: 95%;
-  right: 10rem;
+  right: 15%;
   top: 5%;
   bottom: 0; }
-
-.my-image img {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: inline-block; }
 
 /*# sourceMappingURL=../maps/main.css.map */

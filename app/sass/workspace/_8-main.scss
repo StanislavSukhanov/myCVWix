@@ -23,6 +23,7 @@
 }
 
 .h3 {
+    padding-top: 1rem;
     font-size: $f14;
     font-family: $nsb;
     letter-spacing: 0.5rem;
@@ -30,20 +31,10 @@
 }
 
 .my-image{
-    // background-image: url('../../img/meBanner.jpg');
     position: absolute;
-    width: 40%;
     height: 95%;
-    right: 10rem;
+    right: 15%;
     top: 5%;
     bottom: 0;
 }
 
-.my-image img{
-    position: absolute;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: inline-block;
-
-}
