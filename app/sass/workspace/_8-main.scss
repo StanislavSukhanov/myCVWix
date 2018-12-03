@@ -1,13 +1,11 @@
 .first-view{
     background-color: $cBannerBackground;
     position: relative;
-
+    border-bottom: .25rem solid $cGrey;
 }
 
-.main-one{
 
-}
-.h2 {
+.first-view .h2 {
     padding-top: 25rem;
     font-family: $pm;
     font-size: $f36;
@@ -15,14 +13,14 @@
     letter-spacing: 0.2rem;
 }
 
-.hello {
+.first-view .hello {
     font-size: $f48;
     font-family: $nsb;
     letter-spacing: 0.4rem;
     // padding-top: 40rem;
 }
 
-.h3 {
+.first-view .h3 {
     padding-top: 1rem;
     font-size: $f14;
     font-family: $nsb;
@@ -30,7 +28,7 @@
     padding-bottom: 5rem;
 }
 
-.my-image{
+.first-view .my-image{
     position: absolute;
     height: 95%;
     right: 15%;
@@ -38,3 +36,78 @@
     bottom: 0;
 }
 
+.second-view {
+    text-align: center;
+}
+
+.second-view .h2 {
+    padding-top: 2rem;
+    font-size: $f18;
+    font-family: $rs;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+}
+
+.second-view .h3 {
+    font-family: $rm;
+    font-size: $f16;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: $cMenuBorder;
+
+}
+
+.p {
+    padding: 1rem 0; 
+    font-family: $rl;
+    font-size: $f16;
+
+}
+
+.third-view{
+    background-color: $cBannerBackground;
+    position: relative;
+    border-bottom: .25rem solid $cGrey;
+}
+
+.third-view .h2 {
+    padding-top: 2rem;
+    font-size: $f18;
+    font-family: $rs;
+    letter-spacing: .4rem;
+    padding-bottom: 2rem;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-container{
+    width: 20rem;
+    height: 30rem;
+}
+
+.skill-container>img {
+    width: 100%;
+    height: auto;
+    transition: all .4ms ease;
+}
+
+.skill-container>img:hover {
+    width: 100%;
+    height: auto;
+    transform: scale(1.05);
+}
+
+// .skills>li {
+//     display: inline-block;
+//     height: 20rem;
+//     width: 20rem;
+//     margin: 2rem;
+// }
+
+// .skills>li>img {
+//     height: 100%;
+// }
