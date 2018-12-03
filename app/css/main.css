@@ -172,32 +172,98 @@ table {
 
 .first-view {
   background-color: #e7e7e7;
-  position: relative; }
+  position: relative;
+  border-bottom: 0.25rem solid rgba(0, 0, 0, 0.54); }
 
-.h2 {
+.first-view .h2 {
   padding-top: 25rem;
   font-family: "Permanent-Marker";
   font-size: 3.6rem;
   font-weight: bold;
   letter-spacing: 0.2rem; }
 
-.hello {
+.first-view .hello {
   font-size: 4.8rem;
   font-family: "Noto-Sans-Bold";
   letter-spacing: 0.4rem; }
 
-.h3 {
+.first-view .h3 {
   padding-top: 1rem;
   font-size: 1.4rem;
   font-family: "Noto-Sans-Bold";
   letter-spacing: 0.5rem;
   padding-bottom: 5rem; }
 
-.my-image {
+.first-view .my-image {
   position: absolute;
   height: 95%;
   right: 15%;
   top: 5%;
   bottom: 0; }
+
+.second-view {
+  text-align: center; }
+
+.second-view .h2 {
+  padding-top: 2rem;
+  font-size: 1.8rem;
+  font-family: "Rock-Salt";
+  letter-spacing: .4rem;
+  text-transform: uppercase; }
+
+.second-view .h3 {
+  font-family: "Roboto-Medium";
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  color: #51bae9; }
+
+.p {
+  padding: 1rem 0;
+  font-family: "Roboto-Light";
+  font-size: 1.6rem; }
+
+.third-view {
+  background-color: #e7e7e7;
+  position: relative;
+  border-bottom: 0.25rem solid rgba(0, 0, 0, 0.54); }
+
+.third-view .h2 {
+  padding-top: 2rem;
+  font-size: 1.8rem;
+  font-family: "Rock-Salt";
+  letter-spacing: .4rem;
+  padding-bottom: 2rem; }
+
+.skill-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.skill-container {
+  width: 20rem;
+  height: 30rem; }
+
+.skill-container > img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.skill-container > img:hover {
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05); }
 
 /*# sourceMappingURL=../maps/main.css.map */
