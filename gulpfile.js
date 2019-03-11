@@ -120,6 +120,9 @@ var gulp = require('gulp'),     // connecting gulp
     var buildJs = gulp.src('app/js/**/*')
     .pipe(gulp.dest('dist/js'))
 
+    var buildHTML = gulp.src('app/index.html')
+    .pipe(gulp.dest('dist'))
+
     })
 
     // cleaning cache
