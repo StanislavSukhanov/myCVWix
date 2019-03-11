@@ -10,7 +10,8 @@ var gulp = require('gulp'),     // connecting gulp
     cache = require('gulp-cache'),          // connecting caching library 
     autoprefixer = require('gulp-autoprefixer'),    // lib to automate prefixes
     flatten = require('gulp-flatten'),      // lib to clean paths of converted files 
-    sourcemaps = require('gulp-sourcemaps');// connecing Soucemaps
+    sourcemaps = require('gulp-sourcemaps'), // connecing Soucemaps
+    deploy = require('gulp-gh-pages');
     
 
     // compiling SASS to CSS 
@@ -127,3 +128,9 @@ var gulp = require('gulp'),     // connecting gulp
     })
 
     gulp.task('default', ['watch']);
+
+    // to deploy a project to gh-pages
+    gulp.task('deploy', function(){
+        return (gulp.src("./dist/**/*"))
+        .pipe(deploy())
+    });
